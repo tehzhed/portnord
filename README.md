@@ -4,6 +4,11 @@ Simple port forwarding TUI for Kubernetes 💻↔⎈
 
 ![portnord in action](./media/portnord.mov)
 
+## ✨ Features
+- List all ports exposed by services in a given namespace.
+- Toggle port forwarding for a specific port exposed by a service.
+- Toggle port forwarding for all ports exposed by a service.
+
 ## 🧩 Usage
 
 ```

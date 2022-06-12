@@ -19,14 +19,14 @@ async fn run_app<'a>(ui: &mut ui::UI<'a>) -> ! {
 fn exit_app(error: Option<String>) -> ! {
     if let Some(err_msg) = error {
         println!("An error occurred: {}", err_msg);
-        std::process::exit(1);
+        std::process::exit(1)
     } else {
-        std::process::exit(0);
+        std::process::exit(0)
     }
 }
 
 #[tokio::main]
-async fn main() -> Result<(), kube::Error> {
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let Args { namespace: namespace_opt } = Args::collect();
 

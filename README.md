@@ -2,7 +2,7 @@
 
 Simple port forwarding TUI for Kubernetes 💻↔⎈
 
-![portnord in action](./media/portnord.mov)
+![portnord in action](./media/portnord.gif)
 
 ## ✨ Features
 - List all ports exposed by services in a given namespace.
@@ -27,7 +27,8 @@ OPTIONS:
 
 ## 🐞 Limitations
 
-This is a work in progress, and functionality is currently limited and unstable. (This is a pet project I'm working on to learn Rust! 🦀😍 Apologies if the code does not look idiomatic 📝🥺)
+This is a pet project I'm working on to learn Rust 🦀. 
+It's a WIP, and functionality is currently limited and unstable.
 
 A partial list of limitations:
 - The list of pods and services is not updated live.
